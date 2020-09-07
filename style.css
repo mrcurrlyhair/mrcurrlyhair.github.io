@@ -51,7 +51,7 @@ html, body {
 
 .main-header { 
     background-color: rgba(0, 0, 0, .6);
-    background-image: url("Images/banner.jpg");
+    background-image: url("images/banner.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom:  30px;
@@ -80,4 +80,67 @@ html, body {
 
 .section-header {
     font-family: Pangolin;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
 }
+
+.center { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.middle { 
+    text-align: center;
+}
+
+.main-footer{
+    background-color: lightsalmon;
+    color: lightslategray;
+    padding: o.25em 0;
+}
+
+.image-size {
+   border-radius: 175px;
+}
+
+.fb {
+    width: 13.5%;
+  height: 13.5%;
+}
+.fb-text { 
+    color: black;
+}
+ .Spotify-center {
+     text-align: center;
+     display: block;
+     margin-left: auto;
+    margin-right: auto;
+    width: 13.5%;
+ }
+
+
+ .Time {
+     align-items: center;
+ height: auto;
+ width: 100%;
+ }
+ .Time-center {
+     text-align: center;
+ }
+ .center-text { 
+     text-align: center;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .center-image{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
+ }

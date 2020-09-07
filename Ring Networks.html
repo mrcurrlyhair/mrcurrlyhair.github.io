@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <HTML>
     <HEAD>
-    <title>About</title>
+    <title>Ring Networks</title>
     <link rel="stylesheet" href="style.css">
     </HEAD>
 
@@ -19,16 +19,25 @@
              </ul>
         </nav>
       
-        <h1 class="Website-name website-name-large">Home Page </h1>
+        <h1 class="Website-name website-name-large">Ring Networks</h1>
     </header>
     <section class="content-section container"> 
-    <p1>Insert work</p1>
-    </section>
-    <footer> 
-        <h3> My social links</h3>
+    <p1 class="center-text">In a ring network each device (workstation, server, printer) is connected to two other devices - this forms a ring for the signals to travel around. Each packet of data on the network travels in one direction and each device receives each packet in turn until the destination device receives it.</p1>
+    <img class="center-text" src="images/Ring_Network.png">
+    <p2 class="center-text">^A ring network, where each device is connected to two other devices to form a ring^ </p2>
+    <p3 class="center-text">Advantages and disadvantages of a ring network
+        This type of network can transfer data quickly, even if there are a large number of devices connected because the data only flows in one direction, so there won’t be any data collisions. However, the real disadvantage is that if the main cable fails or any device is faulty, then the whole network will fail. </p3>
+</section>
+    <button type="button" class="Time"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+    
+    <p id="demo" class="Time-center"></p>
+    <footer class="main-footer"> 
+        <h3 class="Website-name"> My social links</h3>
         <ul> 
-            <li><a href="https://www.facebook.com/jacob.churchill.3"><img src="images/Facebook_logo.png"></a></li>
-            <li><a href="https://open.spotify.com/user/wu62hp5jzcwuh84uwmn91rbl8"><img src="images/Spotify_Logo.png"></a></li>
+            <li><a href="https://www.facebook.com/jacob.churchill.3"><img class="image-size fb Spotify-center"src="images/Facebook_logo.png"></a><p class="fb-text Spotify-center">My Personal Facebook</p></li>
+            <li><a href="https://open.spotify.com/user/wu62hp5jzcwuh84uwmn91rbl8"><img class="image-size fb Spotify-center" src="images/Spotify_Logo.png"></a><p class="Spotify-center">My Spotify</p></li>
         </ul>
     </footer>
     </BODY>

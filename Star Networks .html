@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <HTML>
     <HEAD>
-    <title>About</title>
+    <title>Star Networks</title>
     <link rel="stylesheet" href="style.css">
     </HEAD>
 
@@ -19,17 +19,36 @@
              </ul>
         </nav>
         
-        <h1 class="Website-name website-name-large">Home Page </h1>
+        <h1 class="Website-name website-name-large">Star Networks</h1>
     </header>
     <section class="content-section container"> 
-    <p1>Insert work.</p1>
+    <p1>In a star network each device on the network has its own cable that connects to a switch or hub. A hub sends every packet of data to every device, whereas a switch only sends a packet of data to the destination device.</p1>
+    <img class="center-text"src="Images/Star_Network.png">
+    <P2 class="center-text">^A star network, where devices are connected to a central hub or switch^</P2>
+    <p3 clas="center-text"> Advantages and disadvantages of a star network</p3>
+    <p4 clas="center-text"> The advantages of a star network are:</p4>
+    <ul class="center-text">
+        <li>it is very reliable – if one cable or device fails then all the others will continue to work</li>
+        <li>it is high-performing as no data collisions can occur</li>
+    </ul>
+    <p5 class="center-text">The disadvantages of a star network are:</p5>
+    <ul class="center-text">
+        <li>it is expensive to install as this type of network uses the most cable (network cable is expensive)</li>
+        <li>extra hardware is required (hubs or switches) which adds to cost</li>
+        <li>if a hub or switch fails, all the devices connected to it will have no network connection</li>
+    </ul>
     </section>
+    <button type="button" class="Time"
+    onclick="document.getElementById('demo').innerHTML = Date()">
+    Click me to display Date and Time.</button>
+    
+    <p id="demo" class="Time-center"></p>
 
-    <footer> 
-        <h3> My social links</h3>
+    <footer class="main-footer"> 
+        <h3 class="Website-name"> My social links</h3>
         <ul> 
-            <li><a href="https://www.facebook.com/jacob.churchill.3"><img src="images/Facebook_logo.png"></a></li>
-            <li><a href="https://open.spotify.com/user/wu62hp5jzcwuh84uwmn91rbl8"><img src="images/Spotify_Logo.png"></a></li>
+            <li><a href="https://www.facebook.com/jacob.churchill.3"><img class="image-size fb Spotify-center"src="images/Facebook_logo.png"></a><p class="fb-text Spotify-center">My Personal Facebook</p></li>
+            <li><a href="https://open.spotify.com/user/wu62hp5jzcwuh84uwmn91rbl8"><img class="image-size fb Spotify-center" src="images/Spotify_Logo.png"></a><p class="Spotify-center">My Spotify</p></li>
         </ul>
     </footer>
     </BODY>

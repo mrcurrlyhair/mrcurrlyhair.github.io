@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <HTML>
     <HEAD>
-    <title>About</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
     </HEAD>
 
@@ -22,13 +22,25 @@
         <h1 class="Website-name website-name-large">Home Page </h1>
     </header>
     <section class="content-section container"> 
-    <p1>This is my mian page of my website.This is to help you to your correct page you are desiring.</p1>
+    <p1>
+        This is my main page of my website.This is to help you to your correct page you are desiring.
+        In my spare time i like taking photos of nature and my dog as in recent times there is nothing to do other than taking long walks and chilling out
+    </p1>
+    <p2 class="center-text">↓ Below is a picture of my dog stanley ↓</p2>
+    <img class="center-text" src="Images/Stanly_home.jpg">
+    <p3 class="center-text">↓ This is another example of photos I have taken but of the feilds behind my house. ↓</p3>
+    <img class="center-text" src="Images/feilds.jpg">
     </section>
-    <footer> 
-        <h3> My social links</h3>
+         <button type="button" class="Time"
+            onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.</button>
+    
+         <p id="demo" class="Time-center"></p>
+    <footer class="main-footer"> 
+        <h3 class="Website-name"> My social links</h3>
         <ul> 
-            <li><a href="https://www.facebook.com/jacob.churchill.3"><img src="images/Facebook_logo.png"></a></li>
-            <li><a href="https://open.spotify.com/user/wu62hp5jzcwuh84uwmn91rbl8"><img src="images/Spotify_Logo.png"></a></li>
+            <li><a href="https://www.facebook.com/jacob.churchill.3"><img class="image-size fb Spotify-center"src="images/Facebook_logo.png"></a><p class="fb-text Spotify-center">My Personal Facebook</p></li>
+            <li><a href="https://open.spotify.com/user/wu62hp5jzcwuh84uwmn91rbl8"><img class="image-size fb Spotify-center" src="images/Spotify_Logo.png"></a><p class="Spotify-center">My Spotify</p></li>
         </ul>
     </footer>
     </BODY>

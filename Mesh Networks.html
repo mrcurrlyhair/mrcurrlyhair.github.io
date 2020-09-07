@@ -22,13 +22,29 @@
         <h1 class="Website-name website-name-large">Mesh Network </h1>
     </header>
     <section class="content-section container"> 
-    <p1>Insert work</p1>
+    <p1 class="center-text">In a mesh topology there is no central connection point. Instead, each node is connected to at least one other node and usually to more than one. Each node is capable of sending messages to and receiving messages from other nodes. The nodes act as relays, passing on a message towards its final destination.</p1>
+    <p2 class="center-text"> There are two types of mesh topology:</p2>
+    <ul class="center-text">
+        <li>full mesh topology</li>
+        <li>partial mesh topology</li>
+    </ul>
+    <p3 class="center-text">Mesh networks are becoming increasingly popular due to their efficiency.
+     With a full mesh, each node is directly connected to every other node. This enables a message to be sent along many individual routes.</p3>
+     <img class="center-text" src="Images/Fullmesh.png">
+     <p4 class="center-text">With a partial mesh, not all nodes are connected directly to each other. A partial mesh therefore has fewer routes for a message to travel along than a full mesh but is simpler to implement.</p4>
+     <img class="center-text" src="Images/partmesh.png">
+     <p5 class="center-text">Wired mesh networks tend to be uncommon, mainly because connecting all nodes to all other nodes is expensive and impractical. However, wireless mesh networks are increasingly being used since it is far simpler and cheaper to connect using radio signals.</p5>
     </section>
-    <footer> 
-        <h3> My social links</h3>
+    <button type="button" class="Time"
+            onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.</button>
+    
+             <p id="demo" class="Time-center"></p>
+    <footer class="main-footer"> 
+        <h3 class="Website-name"> My social links</h3>
         <ul> 
-            <li><a href="https://www.facebook.com/jacob.churchill.3"><img src="images/Facebook_logo.png"></a></li>
-            <li><a href="https://open.spotify.com/user/wu62hp5jzcwuh84uwmn91rbl8"><img src="images/Spotify_Logo.png"></a></li>
+            <li><a href="https://www.facebook.com/jacob.churchill.3"><img class="image-size fb Spotify-center"src="images/Facebook_logo.png"></a><p class="fb-text Spotify-center">My Personal Facebook</p></li>
+            <li><a href="https://open.spotify.com/user/wu62hp5jzcwuh84uwmn91rbl8"><img class="image-size fb Spotify-center" src="images/Spotify_Logo.png"></a><p class="Spotify-center">My Spotify</p></li>
         </ul>
     </footer>
     </BODY>
