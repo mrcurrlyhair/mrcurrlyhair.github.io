@@ -51,7 +51,7 @@ html, body {
 
 .main-header { 
     background-color: rgba(0, 0, 0, .6);
-    background-image: url("images/banner.jpg");
+    background-image: url("Images/banner.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom:  30px;
